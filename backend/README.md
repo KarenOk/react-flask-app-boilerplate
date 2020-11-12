@@ -38,7 +38,7 @@ The endpoints have been gathered in a [postman](https://www.postman.com/) collec
 
 To test the application, a [python test script](./test_app.py) has been provided.
 
-Before running with any of them,
+Before running,
 
 -   Ensure your working in a virtual environment and that you're in the `./backend` folder.
 -   Run the following commands
@@ -48,9 +48,7 @@ Before running with any of them,
     export FLASK_ENV=development
     ```
 
-### Testing with the test script
-
-1. Ensure you are in the `./backend` directory. Run the tests with:
+Run the tests with:
 
 ```
     dropdb project_name_test
